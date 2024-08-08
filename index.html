@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux Anniversaire !</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+</head>
+<body>
+    <div class="message-container">
+        <p class="message">
+            🎉 Joyeux anniversaire, Copyright ! 🎉<br><br>
+            En ce jour spécial, je tiens à te rappeler à quel point tu es important pour moi. Ton amitié est précieuse et unique, tout comme ton surnom. Que cette année te réserve encore plus de bonheur, de succès et de moments inoubliables.<br><br>
+            Merci pour toutes les belles aventures que nous avons partagées et celles qui nous attendent encore. Profite de ta journée, célèbre comme il se doit et sache que je suis toujours là pour toi, peu importe les circonstances.<br><br>
+            Joyeux anniversaire encore une fois, mon cher Copyright ! 🎂🥳
+        </p>
+    </div>
+    
+    <div class="carousel">
+        <div><img src="img/7.jpg" alt="Photo 1"></div>
+        <div><img src="img/6.jpg" alt="Photo 2"></div>
+        <div><img src="img/3.jpg" alt="Photo 3"></div>
+        <!-- Ajoutez plus de photos ici -->
+    </div>
+
+    <div class="verse">
+        Que Dieu te bénisse abondamment !
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+            });
+        });
+    </script>
+</body>
+</html>
